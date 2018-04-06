@@ -11,4 +11,4 @@ RUN ./fiji-linux64 --update update
 
 WORKDIR /data/
  
-CMD ["/NRRDtools/h5j2NRRD.sh"]
+ENTRYPOINT ["/bin/bash"]
