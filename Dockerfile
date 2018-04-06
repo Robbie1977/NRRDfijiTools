@@ -8,5 +8,5 @@ VOLUME /data
 RUN cd / && git clone https://github.com/Robbie1977/NRRDtools.git 
 
 WORKDIR /data/
-
+ 
 CMD ["/NRRDtools/h5j2NRRD.sh"]
